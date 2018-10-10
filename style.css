@@ -1,10 +1,23 @@
+html {
+    position: relative;
+}
+
 body {
     background-image: url("../Bootstrap-Portfolio/Assets/conoutline.png");
 }
 
+.navbar-nav>li{
+    border-right: 1px solid #000;
+}
+
+.navbar-nav>li:last-child{
+    border: none;
+ }
+
 .container {
     width: 960px;
 }
+
 
 .jumbotron {
     margin-top: 50px;
@@ -13,12 +26,9 @@ body {
 
 /* Using this class on portfolio to make space on bottom of page between footer */
 .portfolioJumbotron {
-    margin-bottom: 50px;
+    padding-bottom: 10px;
 }
 
-li a {
-    float: right;
-}
 
 form p {
     margin-bottom: 2px;
@@ -30,7 +40,7 @@ form p {
     margin-top: 10px;
 }
 
-#hr {
+.hr {
     display: block;
     width: 100%;
     border-top: 2px solid #ccc;
@@ -54,16 +64,30 @@ div img {
     margin-left: 0;
 }
 
+.banner {
+    height: 25px;
+    background: blue;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 15px;
+    padding-right: 0;
+}
+
+/*a div in between jumbotron and footer for making space between the two */
+.gapDiv {
+    height: 75px;
+}
+
 footer {
     height: 50px;
     background: gray;
     bottom: 0;
 }
 
-.portfolioFooter {
+#portfolioFooter {
     position: absolute;
     bottom: 0;
     background: gray;
-    height: 50px;
     width: 100%;
+    
 }
