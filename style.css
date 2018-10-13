@@ -91,3 +91,21 @@ footer {
     width: 100%;
     
 }
+
+@media screen and (max-width: 640px) {
+
+    
+      .project {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+
+    
+    .container {
+        width: 100%;
+  }
+
+}
