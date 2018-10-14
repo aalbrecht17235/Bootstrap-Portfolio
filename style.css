@@ -75,6 +75,8 @@ input {
 
 .banner p {
     text-align: center;
+    font-family: 'Lora', serif;
+    color: white;
 }
 
 ::placeholder {
@@ -125,6 +127,15 @@ footer span {
     
 }
 
+@media screen and (max-width: 990px) {
+
+    
+    .project {
+      margin-bottom: 20px;
+  }
+
+}
+
 @media screen and (max-width: 640px) {
 
     
@@ -140,5 +151,9 @@ footer span {
     .container {
         width: 100%;
   }
+
+  .project {
+    margin-bottom: 20px;
+}
 
 }
